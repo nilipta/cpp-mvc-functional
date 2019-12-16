@@ -1,4 +1,4 @@
-#MVC code
+# MVC code
 > lambda code in main
 
 ```cpp
@@ -10,7 +10,7 @@ Connection c1 = model.connect([&](const Student& mo) {
 
 > #include <functional>
 
-##how the code uses the register the model for view in controller
+## how the code uses the register the model for view in controller
 
 ```cpp
 class Student;
@@ -58,7 +58,7 @@ virtual ~StudentController(){}
 
 ```
 
-##analyse why these type ofmentions are needed???
+## analyse why these type ofmentions are needed???
 
 ```cpp
 StudentView::StudentView()
@@ -73,7 +73,7 @@ StudentView::~StudentView()
 
 ```
 
-#output
+# output
 
 ```
 _
